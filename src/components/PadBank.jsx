@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
-import Heater_1 from "../audio/Heater_1.mp3";
-import Heater_2 from "../audio/Heater_2.mp3";
-import Heater_3 from "../audio/Heater_3.mp3";
-import Heater_4 from "../audio/Heater_4.mp3";
-import clap from "../audio/clap.mp3";
-import Open_HH from "../audio/Open_HH.mp3";
-import Kicks from "../audio/Kick.mp3";
-import Kick_n_Hat from "../audio/Kick_n_Hat.mp3";
-import Closed_HH from "../audio/Closed_HH.mp3";
+import { useEffect, useState } from "react";
+const Heater_1 = "/audio/Heater_1.mp3";
+const Heater_2 = "/audio/Heater_2.mp3";
+const Heater_3 = "/audio/Heater_3.mp3";
+const Heater_4 = "/audio/Heater_4.mp3";
+const clap = "/audio/clap.mp3";
+const Open_HH = "/audio/Open_HH.mp3";
+const Kicks = "/audio/Kick.mp3";
+const Kick_n_Hat = "/audio/Kick_n_Hat.mp3";
+const Closed_HH = "/audio/Closed_HH.mp3";
 
 import { Box, Button, Typography, Grid, Paper } from "@mui/material";
 
